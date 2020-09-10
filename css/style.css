@@ -7,8 +7,27 @@
 body {
   background-color: #f4f9fd;
   font-family: sans-serif;
-  font-weight: 600;
   color: #32495b;
+}
+
+h2 {
+  font-size: 2.6em;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1em;
+  line-height: 25px;
 }
 
 a {
@@ -22,14 +41,21 @@ a {
 }
 
 .orange-button {
-  height: 45px;
-  padding: 10px;
+  height: 80px;
+  padding: 15px 50px;;
   color: #fff;
+  font-size: 1em;
   font-weight: 700;
   background-color: #fe775a;
   border-radius: 5px;
   border: none;
   cursor: pointer;
+}
+
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
 }
 
 /*  ------------- NAV TOP ------------- */
@@ -87,6 +113,8 @@ a {
 
 .nav-top-right .orange-button {
   height: 40px;
+  padding: 10px;
+  font-size: 0.8em;
 }
 
 
@@ -129,12 +157,13 @@ a {
 
 
 
-/*  ------------- NAV BOTTOM ------------- */
+/*  ------------- HEADER ------------- */
 header {
   height: 700px;
   background-image: url('../img/jumbotron.png');
   background-position: bottom;
   background-size: cover;
+  margin-bottom: 100px;
 }
 
 .head-cont {
@@ -153,13 +182,72 @@ header {
 }
 
 h1 {
-  font-size: 2.6em;
-}
-
-h1 + p {
-  font-size: 0.8em;
+  font-size: 3em;
 }
 
 header .orange-button + p {
   font-size: 0.6em;
+}
+
+
+
+/*  ------------- MAIN ------------- */
+
+/*  SERVICES  */
+
+.services-title {
+  padding: 0 20%;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.services-title img {
+  width: 350px;
+}
+
+/*  CRM  */
+/* crm-sx */
+.crm {
+  width: 100%;
+  background-color: #fff;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 1px #e6ecf1;
+}
+
+.crm-left {
+  float: left;
+  width: 20%;
+  text-align: center;
+  margin: 0 5% 0 10%;
+}
+
+.crm-left img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+/* crm-dx */
+.crm-right {
+  float: left;
+  width: 50%;
+  margin: 5% 10% 5% 5%;
+}
+
+.crm-right p {
+  margin-bottom: 20px;
+}
+
+.crm-right ul {
+  list-style: none;
+}
+
+.crm-right li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.crm-right li i {
+  margin-right: 10px;
+  color: #fe775a;
 }
