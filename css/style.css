@@ -126,3 +126,40 @@ a {
 .nav-bot-menu i {
   margin-left: 10px;
 }
+
+
+
+/*  ------------- NAV BOTTOM ------------- */
+header {
+  height: 700px;
+  background-image: url('../img/jumbotron.png');
+  background-position: bottom;
+  background-size: cover;
+}
+
+.head-cont {
+  position: relative;
+  height: 700px;
+}
+
+.title-info {
+  position: absolute;
+  top: 5%;
+  width: 35%;
+}
+
+.title-info * {
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-size: 2.6em;
+}
+
+h1 + p {
+  font-size: 0.8em;
+}
+
+header .orange-button + p {
+  font-size: 0.6em;
+}
