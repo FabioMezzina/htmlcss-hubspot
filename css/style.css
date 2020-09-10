@@ -3,3 +3,83 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #f4f9fd;
+  font-size: sans-serif;
+  color: #32495b;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container-dimension {
+  width: 80%;
+  margin: auto;
+}
+
+.orange-button {
+  height: 45px;
+  padding: 10px;
+  color: #fff;
+  background-color: #fe775a;
+  border-radius: 5px;
+  border: none;
+}
+
+/* -------------LOGIN BAR------------- */
+.nav-cont {
+  height: 70px;
+  position: relative;
+}
+
+.nav-top {
+  border-bottom: 2px solid #32495b;
+}
+/*  LEFT LOGIN BAR  */
+.lang-selection {
+  height: 50px;
+}
+
+.nav-top-left {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav-top-left a:first-child {
+  padding-right: 10px;
+  border-right: 1px solid #32495b;
+}
+
+.nav-top-left a:last-child {
+  padding-left: 10px;
+}
+
+/*  RIGHT LOGIN BAR */
+.nav-top-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav-top-right i {
+  color: #03a7bf;
+}
+
+.nav-top-right .login-button {
+  height: 40px;
+  padding: 10px;
+  color: #fe775a;
+  border: 1px solid #fe775a;
+  border-radius: 5px;
+  background-color: #fafcfe;
+  margin: 0 15px;
+}
+
+.nav-top-right .orange-button {
+  height: 40px;
+}
