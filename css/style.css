@@ -35,6 +35,9 @@ a {
   color: inherit;
 }
 
+ul {
+  list-style: none;
+}
 .container-dimension {
   margin: 0 15%;
   /* width: 70%;
@@ -51,11 +54,6 @@ a {
   border-radius: 5px;
   border: none;
   cursor: pointer;
-}
-
-.product-logo {
-  width: 200px;
-  margin-bottom: 20px;
 }
 
 .product-border {
@@ -154,10 +152,6 @@ a {
   transform: translateY(-50%);
 }
 
-.nav-bot-menu ul {
-  list-style: none;
-}
-
 .nav-bot-menu li {
   display: inline-block;
   margin-left: 20px;
@@ -209,6 +203,16 @@ header .orange-button + p {
 
 /*  ------------- MAIN ------------- */
 
+main li i {
+  color: #fe775a;
+}
+
+.product-logo {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
 /*  SERVICES  */
 
 .services-title {
@@ -247,10 +251,6 @@ header .orange-button + p {
   margin-bottom: 25px;
 }
 
-.crm-right ul {
-  list-style: none;
-}
-
 .crm-right li {
   display: inline-block;
   margin-right: 40px;
@@ -258,7 +258,6 @@ header .orange-button + p {
 
 .crm-right li i {
   margin-right: 10px;
-  color: #fe775a;
 }
 
 
@@ -277,22 +276,22 @@ header .orange-button + p {
 
 .product p {
     padding-bottom: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    height: 150px;
     border-bottom: 1px solid #899397;
 }
 
 .product ul {
-  list-style: none;
-  text-align: left;
+  margin-bottom: 40px;
 }
 
 .product li {
+  text-align: left;
   margin-bottom: 5px;
 }
 
 .product li i {
   margin-right: 5px;
-  color: #fe775a;
 }
 
 .product:nth-child(2) {
