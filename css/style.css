@@ -202,7 +202,6 @@ header .orange-button + p {
 
 
 /*  ------------- MAIN ------------- */
-
 main li i {
   color: #fe775a;
 }
@@ -296,4 +295,75 @@ main li i {
 
 .product:nth-child(2) {
   margin: 0 8%;
+}
+
+
+/* ------------- COMMUNITY ------------- */
+
+.community {
+  margin-top: 80px;
+  padding: 80px 0;
+  background: linear-gradient(45deg, #00a4bd 0%, #00bca5 100%);
+  text-align: center;
+  color: #fff;
+}
+
+.community h2 {
+  margin-bottom: 40px;
+}
+
+.community .container-dimension > p {
+  margin-bottom: 40px;
+}
+
+.community-box {
+  width: 25%;
+  float: left;
+}
+
+.community-box img {
+  margin-bottom: 10px;
+}
+
+.community-box-top,
+.community-box-bot {
+  padding: 20px;
+
+}
+
+.community-box-top {
+  border-bottom: 1px solid #fff;
+}
+
+.community-box h2 {
+  margin-bottom: 10px;
+}
+
+.community-box h2 span {
+  font-size: 0.6em;
+  vertical-align: middle;
+}
+
+.community-box p {
+  font-size: 0.7em;
+}
+
+.community-box:nth-child(2) {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.community-box:nth-child(3) {
+  border-right: 1px solid #fff;
+}
+/* ------------- CUSTOMER ------------- */
+.customer {
+  height: 700px;
+  background-color: #fff;
+}
+
+/* ------------- FOOTER ------------- */
+footer {
+  height: 600px;
+  background-color: #32495b;
 }
