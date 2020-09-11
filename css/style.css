@@ -36,8 +36,9 @@ a {
 }
 
 .container-dimension {
-  width: 70%;
-  margin: auto;
+  margin: 0 15%;
+  /* width: 70%;
+  margin: auto; */
 }
 
 .orange-button {
@@ -52,7 +53,18 @@ a {
   cursor: pointer;
 }
 
-.clearfix {
+.product-logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.product-border {
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 1px #e6ecf1;
+}
+
+.clearfix:after {
   content: '';
   display: table;
   clear: both;
@@ -159,21 +171,16 @@ a {
 
 /*  ------------- HEADER ------------- */
 header {
-  height: 700px;
   background-image: url('../img/jumbotron.png');
   background-position: bottom;
   background-size: cover;
-  margin-bottom: 100px;
-}
-
-.head-cont {
-  position: relative;
   height: 700px;
+  position: relative;
+  margin-bottom: 80px;
 }
 
 .title-info {
-  position: absolute;
-  top: 5%;
+  padding-top: 5%;
   width: 35%;
 }
 
@@ -189,6 +196,15 @@ header .orange-button + p {
   font-size: 0.6em;
 }
 
+.green-band {
+  width: 100%;
+  height: 16%;
+  border-top: 2px solid #33475b;
+  border-bottom: 2px solid #33475b;
+  background-color: #afebe4;
+  position: absolute;
+  bottom: 0;
+}
 
 
 /*  ------------- MAIN ------------- */
@@ -209,10 +225,8 @@ header .orange-button + p {
 /* crm-sx */
 .crm {
   width: 100%;
-  background-color: #fff;
   padding: 60px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 1px #e6ecf1;
+  margin-bottom: 80px;
 }
 
 .crm-left {
@@ -220,11 +234,6 @@ header .orange-button + p {
   width: 20%;
   text-align: center;
   margin: 0 5% 0 10%;
-}
-
-.crm-left img {
-  width: 200px;
-  margin-bottom: 20px;
 }
 
 /* crm-dx */
@@ -235,7 +244,7 @@ header .orange-button + p {
 }
 
 .crm-right p {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .crm-right ul {
@@ -250,4 +259,42 @@ header .orange-button + p {
 .crm-right li i {
   margin-right: 10px;
   color: #fe775a;
+}
+
+
+
+/*  SERVICE-BOT */
+.services-bot {
+  text-align: center;
+}
+
+.product {
+  padding: 25px;
+  background-color: #fff;
+  width: 28%;
+  float: left;
+}
+
+.product p {
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #899397;
+}
+
+.product ul {
+  list-style: none;
+  text-align: left;
+}
+
+.product li {
+  margin-bottom: 5px;
+}
+
+.product li i {
+  margin-right: 5px;
+  color: #fe775a;
+}
+
+.product:nth-child(2) {
+  margin: 0 8%;
 }
