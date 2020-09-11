@@ -357,6 +357,8 @@ main li i {
 }
 
 /* ------------- CUSTOMER ------------- */
+
+/* customer top section */
 .customer {
   height: 700px;
   padding: 40px 0;
@@ -365,7 +367,7 @@ main li i {
 
 .customer-top {
   width: 60%;
-  margin: auto;
+  margin: 0 auto 80px auto;
 }
 
 .number-of-customer {
@@ -397,7 +399,6 @@ main li i {
 .logo-bot {
   height: 80px;
   position: relative;
-  /* margin: 20px 0 40px 0; */
 }
 
 .col-logo img {
@@ -406,6 +407,31 @@ main li i {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+}
+
+/* customer bot section */
+.customer-bot {
+  position: relative;
+}
+
+.customer-get-started {
+  width: 35%;
+  position: absolute;
+  left: 0;
+}
+
+.customer-get-started * {
+  margin-bottom: 5%;
+}
+.customer-get-started .orange-button + p {
+  font-size: 0.6em;
+}
+
+.customer-bot img {
+  width: 20%;
+  display: block;
+  position: absolute;
+  right: 0;
 }
 
 /* ------------- FOOTER ------------- */
