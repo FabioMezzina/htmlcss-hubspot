@@ -55,6 +55,12 @@ ul {
   cursor: pointer;
 }
 
+.narrow {
+  height: 40px;
+  padding: 10px;
+  font-size: 0.8em;
+}
+
 .product-border {
   border-radius: 10px;
   background-color: #fff;
@@ -118,12 +124,6 @@ ul {
   background-color: #fafcfe;
   margin: 0 15px;
   cursor: pointer;
-}
-
-.nav-top-right .orange-button {
-  height: 40px;
-  padding: 10px;
-  font-size: 0.8em;
 }
 
 
@@ -435,7 +435,66 @@ main li i {
 }
 
 /* ------------- FOOTER ------------- */
+/* footer menu */
 footer {
-  height: 600px;
+  padding: 80px 0;
+  color: #cbd6e2;
   background-color: #32495b;
+}
+
+.col-footer {
+  width: 25%;
+  float: left;
+}
+
+footer h4 {
+  font-size: 1.2em;
+  color: white;
+}
+
+footer li {
+  padding: 10px 0;
+  font-weight: 700;
+}
+
+footer button.narrow {
+  display: block;
+  margin: 10px 0 20px 0;
+  color: #32495b;
+  background-color: #dadee0;
+}
+
+footer i {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* footer language */
+.footer-languages {
+  text-align: center;
+  padding: 0 0 20px 0;
+  margin: 80px auto 40px auto;
+  border-bottom: 1px solid;
+}
+.footer-languages li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+/* footer-bottom */
+.copyright {
+  float: left;
+}
+
+.copyright p {
+  color: #fff;
+}
+
+.policy {
+  float: right;
+}
+
+.policy li {
+  display: inline-block;
+  margin: 0 20px;
 }
