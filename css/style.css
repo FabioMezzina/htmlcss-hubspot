@@ -88,9 +88,9 @@ ul {
 }
 
 .nav-top-left {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  padding: 30px 0;
+  height: 100%;
+  float: left;
 }
 
 .nav-top-left a:first-child {
@@ -104,10 +104,9 @@ ul {
 
 /*  RIGHT LOGIN BAR */
 .nav-top-right {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  padding: 20px 0;
+  height: 100%;
+  float: right;
 }
 
 .nav-top-right i {
@@ -139,16 +138,15 @@ ul {
 }
 
 .hubspot-logo {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  height: 100%;
+  float: left;
+  padding: 25px 0;
 }
 
 .nav-bot-menu {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  height: 100%;
+  float: right;
+  padding: 30px 0;
 }
 
 .nav-bot-menu li {
