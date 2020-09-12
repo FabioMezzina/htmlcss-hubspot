@@ -75,8 +75,15 @@ ul {
 
 /*  ------------- NAV TOP ------------- */
 .nav-top {
+  width: 100%;
+  background-color: #f4f9fd;
   border-bottom: 1px solid #32495b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
 }
+
 .nav-cont {
   height: 80px;
   position: relative;
@@ -129,6 +136,7 @@ ul {
 
 /*  ------------- NAV BOTTOM ------------- */
 .nav-bottom {
+  margin-top: 80px;
   background-color: #fff;
 }
 
