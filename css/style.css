@@ -6,27 +6,30 @@
 
 body {
   background-color: #f4f9fd;
-  font-family: sans-serif;
-  color: #32495b;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #33475b;
+}
+
+h2,
+h3,
+h4 {
+  margin-bottom: 20px;
 }
 
 h2 {
   font-size: 2.6em;
-  margin-bottom: 20px;
 }
 
 h3 {
   font-size: 2em;
-  margin-bottom: 20px;
 }
 
 h4 {
   font-size: 1.5em;
-  margin-bottom: 20px;
 }
 
 p {
-  font-size: 1em;
   line-height: 25px;
 }
 
@@ -38,14 +41,16 @@ a {
 ul {
   list-style: none;
 }
+
 .container-dimension {
   width: 70%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .orange-button {
+  display: inline-block;
   height: 80px;
-  padding: 15px 50px;;
+  padding: 15px 50px;
   color: #fff;
   font-size: 1em;
   font-weight: 700;
@@ -53,6 +58,10 @@ ul {
   border-radius: 5px;
   border: none;
   cursor: pointer;
+}
+
+.orange-button:hover {
+  background-color: rgba(254, 119, 90, 0.8)
 }
 
 .narrow {
@@ -64,7 +73,7 @@ ul {
 .product-border {
   border-radius: 10px;
   background-color: #fff;
-  box-shadow: 0px 0px 10px 1px #e6ecf1;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
 }
 
 .clearfix:after {
@@ -86,16 +95,13 @@ ul {
 
 .nav-cont {
   height: 80px;
+  line-height: 80px;
   position: relative;
 }
 
 /*  LEFT LOGIN BAR  */
-.lang-selection {
-  height: 50px;
-}
 
 .nav-top-left {
-  padding: 30px 0;
   height: 100%;
   float: left;
 }
@@ -111,7 +117,6 @@ ul {
 
 /*  RIGHT LOGIN BAR */
 .nav-top-right {
-  padding: 20px 0;
   height: 100%;
   float: right;
 }
@@ -140,21 +145,18 @@ ul {
   background-color: #fff;
 }
 
-.nav-cont {
-  height: 80px;
-  position: relative;
-}
-
 .hubspot-logo {
   height: 100%;
   float: left;
-  padding: 25px 0;
+}
+
+.hubspot-logo img {
+  vertical-align: middle;
 }
 
 .nav-bot-menu {
   height: 100%;
   float: right;
-  padding: 30px 0;
 }
 
 .nav-bot-menu li {
@@ -166,10 +168,8 @@ ul {
   margin-left: 10px;
 }
 
-
-
 /*  ------------- HEADER ------------- */
-header {
+.jumbo {
   height: 700px;
   background-color: #fff4ef;
   margin-bottom: 80px;
@@ -180,6 +180,19 @@ header {
   height: 100%;
 	background-color: transparent;
 }
+
+.jumbo::before {
+  content: '';
+  width: 100%;
+  height: 80px;
+  border-top: 2px solid #33475b;
+  border-bottom: 2px solid #33475b;
+  background-color: #afebe4;
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
+}
+
 
 .cover {
   height: 100%;
@@ -207,20 +220,10 @@ h1 {
   font-size: 3em;
 }
 
-header .orange-button + p {
+.jumbo .orange-button + p {
   font-size: 0.6em;
 }
 
-.green-band {
-  width: 100%;
-  height: 85px;
-  border-top: 2px solid #33475b;
-  border-bottom: 2px solid #33475b;
-  background-color: #afebe4;
-  position: absolute;
-  bottom: 0;
-  z-index: 3;
-}
 
 
 /*  ------------- MAIN ------------- */
@@ -247,7 +250,7 @@ main li i {
 }
 
 /*  CRM  */
-/* crm-sx */
+/* crm-left */
 .crm {
   width: 100%;
   padding: 60px;
@@ -261,7 +264,7 @@ main li i {
   margin: 0 5% 0 10%;
 }
 
-/* crm-dx */
+/* crm-right */
 .crm-right {
   float: left;
   width: 50%;
@@ -270,6 +273,28 @@ main li i {
 
 .crm-right p {
   margin-bottom: 25px;
+}
+
+.title-border {
+  position: relative;
+}
+
+.title-border::before {
+  content:'';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 2px;
+  background-color: #899397;
+}
+
+.title-border span {
+  position: relative;
+  display: block;
+  width: 50%;
+  background-color: #fff;
 }
 
 .crm-right li {
@@ -299,7 +324,7 @@ main li i {
     padding-bottom: 50px;
     margin-bottom: 30px;
     height: 150px;
-    border-bottom: 1px solid #899397;
+    border-bottom: 2px solid #899397;
 }
 
 .product ul {
@@ -330,7 +355,7 @@ main li i {
   color: #fff;
 }
 
-.community h2 {
+.community .container-dimension > h2 {
   margin-bottom: 40px;
 }
 
@@ -355,10 +380,6 @@ main li i {
 
 .community-box-top {
   border-bottom: 1px solid #fff;
-}
-
-.community-box h2 {
-  margin-bottom: 10px;
 }
 
 .community-box h2 span {
@@ -460,9 +481,9 @@ main li i {
 /* ------------- FOOTER ------------- */
 /* footer menu */
 footer {
-  padding: 80px 0;
+  padding: 80px 0 40px 0;
   color: #cbd6e2;
-  background-color: #32495b;
+  background-color: #33475b;
 }
 
 .col-footer {
@@ -483,7 +504,7 @@ footer li {
 footer button.narrow {
   display: block;
   margin: 10px 0 20px 0;
-  color: #32495b;
+  color: #33475b;
   background-color: #dadee0;
 }
 
