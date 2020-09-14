@@ -57,15 +57,13 @@ ul.list-inline li{
 
 .orange-button {
   display: inline-block;
+  padding: 0 50px;
   height: 80px;
-  padding: 15px 50px;
+  line-height: 80px;
   color: #fff;
   font-size: 1em;
-  font-weight: 700;
   background-color: #fe775a;
   border-radius: 5px;
-  border: none;
-  cursor: pointer;
 }
 
 .orange-button:hover {
@@ -74,8 +72,9 @@ ul.list-inline li{
 
 .narrow {
   height: 40px;
-  padding: 10px;
-  font-size: 0.8em;
+  line-height: 40px;
+  padding: 0 10px;
+  font-size: 1em;
 }
 
 .product-border {
@@ -136,15 +135,15 @@ ul.list-inline li{
 }
 
 .nav-top-right .login-button {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 0 20px;
   height: 40px;
-  padding: 10px;
+  line-height: 40px;
   color: #fe775a;
-  font-weight: 700;
   border: 1px solid #fe775a;
   border-radius: 5px;
   background-color: #fafcfe;
-  margin: 0 15px;
-  cursor: pointer;
 }
 
 
@@ -500,9 +499,9 @@ footer li {
   font-weight: 700;
 }
 
-footer button.narrow {
-  display: block;
-  margin: 10px 0 20px 0;
+footer a.narrow {
+  margin: 10px 0 10px 0;
+  font-weight: 400;
   color: #33475b;
   background-color: #dadee0;
 }
