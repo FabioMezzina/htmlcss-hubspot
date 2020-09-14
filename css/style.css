@@ -42,6 +42,10 @@ ul {
   list-style: none;
 }
 
+ul.list-inline li{
+  display: inline-block;
+}
+
 .container-dimension {
   width: 70%;
   margin: 0 auto;
@@ -106,13 +110,13 @@ ul {
   float: left;
 }
 
-.nav-top-left a:first-child {
-  padding-right: 10px;
+.nav-top-left li:first-child a {
+  padding-right: 20px;
   border-right: 1px solid #32495b;
 }
 
-.nav-top-left a:last-child {
-  padding-left: 10px;
+.nav-top-left li:last-child a{
+  padding-left: 20px;
 }
 
 /*  RIGHT LOGIN BAR */
@@ -160,7 +164,6 @@ ul {
 }
 
 .nav-bot-menu li {
-  display: inline-block;
   margin-left: 20px;
 }
 
@@ -168,7 +171,7 @@ ul {
   margin-left: 10px;
 }
 
-/*  ------------- HEADER ------------- */
+/*  ------------- JUMBOTRON ------------- */
 .jumbo {
   height: 700px;
   background-color: #fff4ef;
@@ -176,7 +179,7 @@ ul {
   position: relative;
 }
 
-.head-cont {
+.jumbo-cont {
   height: 100%;
 	background-color: transparent;
 }
@@ -298,7 +301,6 @@ main li i {
 }
 
 .crm-right li {
-  display: inline-block;
   margin-right: 40px;
 }
 
