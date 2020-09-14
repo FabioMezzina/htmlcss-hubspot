@@ -273,22 +273,29 @@ main li i {
   margin-bottom: 25px;
 }
 
-.title-border {
+.title-border,
+.title-border.on-side {
   position: relative;
 }
 
 .title-border::before {
-  content:'';
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
+  content: '';
+  display: block;
+  margin-bottom: 30px;
   width: 100%;
   height: 2px;
   background-color: #899397;
 }
 
-.title-border span {
+.title-border.on-side::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  margin: 0;
+}
+
+.title-border.on-side span {
   position: relative;
   display: block;
   width: 50%;
@@ -318,10 +325,7 @@ main li i {
 }
 
 .product p {
-    padding-bottom: 50px;
-    margin-bottom: 30px;
-    height: 150px;
-    border-bottom: 2px solid #899397;
+    margin-bottom: 50px;
 }
 
 .product ul {
