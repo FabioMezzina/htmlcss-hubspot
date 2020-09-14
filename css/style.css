@@ -11,6 +11,10 @@ body {
   color: #33475b;
 }
 
+h1 {
+  font-size: 3em;
+}
+
 h2,
 h3,
 h4 {
@@ -86,8 +90,13 @@ ul.list-inline li{
   clear: both;
 }
 
-/*  ------------- NAV TOP ------------- */
+
+
+/*  ------------- HEADER ------------- */
+
+/*  NAV TOP */
 .nav-top {
+  height: 80px;
   width: 100%;
   background-color: #f4f9fd;
   border-bottom: 1px solid #32495b;
@@ -98,13 +107,10 @@ ul.list-inline li{
 }
 
 .nav-cont {
-  height: 80px;
   line-height: 80px;
-  position: relative;
 }
 
-/*  LEFT LOGIN BAR  */
-
+/*  left login bar  */
 .nav-top-left {
   height: 100%;
   float: left;
@@ -119,7 +125,7 @@ ul.list-inline li{
   padding-left: 20px;
 }
 
-/*  RIGHT LOGIN BAR */
+/*  right login bar */
 .nav-top-right {
   height: 100%;
   float: right;
@@ -143,7 +149,7 @@ ul.list-inline li{
 
 
 
-/*  ------------- NAV BOTTOM ------------- */
+/*  NAV BOTTOM */
 .nav-bottom {
   margin-top: 80px;
   background-color: #fff;
@@ -171,10 +177,15 @@ ul.list-inline li{
   margin-left: 10px;
 }
 
-/*  ------------- JUMBOTRON ------------- */
+
+
+/*  JUMBOTRON  */
 .jumbo {
   height: 700px;
   background-color: #fff4ef;
+  background-image: url('../img/jumbotron.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
   margin-bottom: 80px;
   position: relative;
 }
@@ -193,19 +204,7 @@ ul.list-inline li{
   background-color: #afebe4;
   position: absolute;
   bottom: 0;
-  z-index: 3;
-}
-
-
-.cover {
-  height: 100%;
-  background-image: url('../img/jumbotron.png');
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 .title-info {
@@ -219,10 +218,6 @@ ul.list-inline li{
   margin-bottom: 25px;
 }
 
-h1 {
-  font-size: 3em;
-}
-
 .jumbo .orange-button + p {
   font-size: 0.6em;
 }
@@ -230,6 +225,7 @@ h1 {
 
 
 /*  ------------- MAIN ------------- */
+
 main li i {
   color: #fe775a;
 }
@@ -404,7 +400,7 @@ main li i {
 
 /* ------------- CUSTOMER ------------- */
 
-/* customer top section */
+/* CUSTOMER TOP SECTION */
 .customer {
   height: 700px;
   padding: 40px 0;
@@ -455,7 +451,7 @@ main li i {
   transform: translateY(-50%);
 }
 
-/* customer bot section */
+/* CUSTOMER BOT SECTION */
 .customer-bot {
   position: relative;
 }
@@ -481,7 +477,8 @@ main li i {
 }
 
 /* ------------- FOOTER ------------- */
-/* footer menu */
+
+/* FOOTER MENU */
 footer {
   padding: 80px 0 40px 0;
   color: #cbd6e2;
@@ -515,7 +512,7 @@ footer i {
   margin-right: 20px;
 }
 
-/* footer language */
+/* FOOTER LANGUAGES */
 .footer-languages {
   text-align: center;
   padding: 0 0 20px 0;
@@ -527,7 +524,7 @@ footer i {
   margin: 0 20px;
 }
 
-/* footer-bottom */
+/* FOOTER BOTTOM */
 .copyright {
   float: left;
 }
