@@ -524,10 +524,6 @@ footer li {
   margin-right: 20px;
 }
 
-footer i {
-  display: inline-block;
-}
-
 /* FOOTER LANGUAGES */
 .footer-languages {
   text-align: center;
@@ -536,7 +532,6 @@ footer i {
   border-bottom: 1px solid;
 }
 .footer-languages li {
-  display: inline-block;
   margin: 0 20px;
 }
 
@@ -554,6 +549,5 @@ footer i {
 }
 
 .policy li {
-  display: inline-block;
   margin: 0 20px;
 }
