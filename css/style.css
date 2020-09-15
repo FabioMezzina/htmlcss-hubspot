@@ -55,19 +55,34 @@ ul.list-inline li{
   margin: 0 auto;
 }
 
-.orange-button {
+.button {
   display: inline-block;
   padding: 0 50px;
   height: 80px;
   line-height: 80px;
   color: #fff;
   font-size: 1em;
-  background-color: #fe775a;
   border-radius: 5px;
 }
 
-.orange-button:hover {
-  background-color: rgba(254, 119, 90, 0.8)
+.orange {
+  background-color: #fe775a;
+}
+
+.orange:hover {
+  background-color: rgba(254, 119, 90, 0.8);
+}
+
+.contact-us {
+  margin: 10px 0 10px 0;
+  font-weight: 400;
+  color: #33475b;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.contact-us:hover {
+  background-color: rgba(234,240,246,0.8);
 }
 
 .narrow {
@@ -144,6 +159,10 @@ ul.list-inline li{
   border: 1px solid #fe775a;
   border-radius: 5px;
   background-color: #fafcfe;
+}
+
+.login-button:hover {
+  background-color: rgba(254, 119, 90, 0.1);
 }
 
 
@@ -501,12 +520,7 @@ footer li {
   font-weight: 700;
 }
 
-footer a.narrow {
-  margin: 10px 0 10px 0;
-  font-weight: 400;
-  color: #33475b;
-  background-color: #dadee0;
-}
+
 
 footer i {
   display: inline-block;
