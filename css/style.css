@@ -520,11 +520,12 @@ footer li {
   font-weight: 700;
 }
 
-
+.social-logos a {
+  margin-right: 20px;
+}
 
 footer i {
   display: inline-block;
-  margin-right: 20px;
 }
 
 /* FOOTER LANGUAGES */
