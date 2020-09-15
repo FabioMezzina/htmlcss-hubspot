@@ -384,7 +384,7 @@ main li i {
 }
 
 .community-box h2 span {
-  font-size: 0.6em;
+  font-size: 0.8em;
   vertical-align: middle;
 }
 
@@ -416,9 +416,7 @@ main li i {
 }
 
 .number-of-customer {
-  width: 30%;
-  margin-right: 5%;
-  padding-right: 100px;
+  width: 25%;
   float: left;
 }
 
@@ -431,8 +429,8 @@ main li i {
 }
 
 .customer-logos {
-  width: 65%;
-  float: left;
+  width: 60%;
+  float: right;
 }
 
 .col-logo {
@@ -460,7 +458,7 @@ main li i {
 }
 
 .customer-get-started {
-  width: 35%;
+  width: 40%;
   position: absolute;
   left: 0;
 }
