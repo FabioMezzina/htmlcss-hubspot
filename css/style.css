@@ -104,8 +104,6 @@ ul.list-inline li{
   clear: both;
 }
 
-
-
 /*  ------------- HEADER ------------- */
 
 /*  NAV TOP */
@@ -165,8 +163,6 @@ ul.list-inline li{
   background-color: rgba(254, 119, 90, 0.1);
 }
 
-
-
 /*  NAV BOTTOM */
 .nav-bottom {
   margin-top: 80px;
@@ -194,8 +190,6 @@ ul.list-inline li{
 .nav-bot-menu i {
   margin-left: 10px;
 }
-
-
 
 /*  JUMBOTRON  */
 .jumbo {
@@ -239,8 +233,6 @@ ul.list-inline li{
 .jumbo .orange-button + p {
   font-size: 0.6em;
 }
-
-
 
 /*  ------------- MAIN ------------- */
 
@@ -329,8 +321,6 @@ main li i {
   margin-right: 10px;
 }
 
-
-
 /*  SERVICE-BOT */
 .services-bot {
   text-align: center;
@@ -363,7 +353,6 @@ main li i {
 .product:nth-child(2) {
   margin: 0 8%;
 }
-
 
 /* ------------- COMMUNITY ------------- */
 
